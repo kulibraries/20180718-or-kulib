@@ -6,7 +6,7 @@
 carpentry: "lc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "OpenRefine Workshop for KU Libraries"
 
 # Contact email address.
 email: jamenebk@ku.edu
@@ -20,7 +20,7 @@ kind: "workshop"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
-repository: kulibraries/20180711-dataintro-kulib
+repository: kulibraries/20180718-or-kulib
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
