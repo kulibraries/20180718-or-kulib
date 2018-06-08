@@ -114,16 +114,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <strong>Equipment:</strong> Participants will be using OpenRefine installed on Watson 419 computers running Windows 10. To install OpenRefine on a personal computer, follow the instructions <a href="#setup">below</a>. Participants are required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
   Data Carpentry's
   {% elsif page.carpentry == "lc" %}
-  Library Carpentry's
+  The Carpentries'
   {% endif %}
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
 </p>
@@ -217,6 +214,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include lc/schedule.html %}
 {% endif %}
 
+<hr/>
+
 {% comment %}
   Collaborative Notes
 
@@ -227,9 +226,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 {% endcomment %}
+
+<h2 id="notes">Notes</h2>
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a>, called an Etherpad, for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
@@ -282,17 +283,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  To install OpenRefine on a personal computer, follow the instructions described below. For installation on your work computer, you may need to arrange Windows administrative permission with your supervisor.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -426,7 +417,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
-    For this lesson you will need <em>OpenRefine</em> and a
+    For this lesson you will need OpenRefine and a
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
     It runs inside a web browser, but no web connection is needed.
   </p>
