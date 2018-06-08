@@ -114,7 +114,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Equipment:</strong> Participants will be using OpenRefine installed on Watson 419 computers running Windows 10. To install OpenRefine on a personal computer, follow the instructions <a href="#setup">below</a>. Participants are required to abide by
+  <strong>Equipment:</strong> Participants will be using OpenRefine installed on KU Libraries' laptop computers running Windows 10. To install OpenRefine on a personal computer, follow the instructions <a href="#setup">below</a>. Participants are required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
